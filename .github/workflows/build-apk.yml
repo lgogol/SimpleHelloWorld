@@ -24,6 +24,7 @@ jobs:
       with:
         api-level: 34
         build-tools: 34.0.0
+        mdline-tools: 11.0  # Add this line
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
